@@ -12,8 +12,8 @@ from Geom_Creat import Quadrilateral
 
 tf.random.set_seed(42)
 data_type = "float64"
-model_save_path_diffusion = "model/Spherical_Diffusion_DEM_Stress_5/diffusion.h5"
-model_save_path_stress = "model/Spherical_Diffusion_DEM_Stress_5/stress.h5"
+model_save_path_diffusion = "model/Spherical_Diffusion_DEM/diffusion.h5"
+model_save_path_stress = "model/Spherical_Diffusion_DEM/stress.h5"
 cycle_number = 0 # cycle count
 number_of_iterations = 20  # Setting the number of cycles
 cumulative_epochs_diffusion = []  # Recorded loss
@@ -87,7 +87,7 @@ def geometric_shapes(xmin = 0.5, xmax = 1.0, tmin = 0.0, tmax = 0.5,
     plt.scatter(Xinit[:,0], Xinit[:,1], s=1, c='yellow')
     plt.title("Initial/Boundary Matching and Internal Integration Points")
     # plt.savefig('fig/distribution_chart.svg', format='svg', dpi=300)
-    # plt.show()
+    plt.show()
     return Xint, Yint, Wint, Xbnd_l, Xbnd_r, Wbnd, Ybnd_l, Ybnd_r, Xinit, Winit, Yinit, domainGeom
 
 
