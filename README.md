@@ -12,4 +12,4 @@ We provide code for the TensorFlow and Pytorch deep learning frameworks respecti
 > * The two examples we provide are `Cylinder_DEM.py` and `Spherical_DEM.py` respectively.
 > * Numerical solutions for COMSOL are also provided and can of course be used to test in TensorFlow.
 
-> `pip install -r requirements.txt`Build the environment to run this code.
+> `pip install -r requirements.txt`Build the environment to run this code. 
