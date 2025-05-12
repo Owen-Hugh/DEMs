@@ -13,3 +13,6 @@ We provide code for the TensorFlow and Pytorch deep learning frameworks respecti
 > * Numerical solutions for COMSOL are also provided and can of course be used to test in TensorFlow.
 
 > `pip install -r requirements.txt`Build the environment to run this code. 
+
+If you find this project useful in your research, please cite the following work:
+'Wu Y, Feng W, Li Y, Zhang K, Yang F. Dual-stage method with PINN for coupled strong-form diffusion and energy-based deformation analysis in lithium-ion batteries. Applied Mathematical Modelling. 2025 Feb 5:115986.'
